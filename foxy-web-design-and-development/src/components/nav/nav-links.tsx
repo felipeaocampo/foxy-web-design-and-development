@@ -4,7 +4,7 @@ export default function NavLinks() {
   return (
     <ul className="flex items-center gap-8">
       <li>
-        <Link href="#about">About Foxy</Link>
+        <Link href="#about">About</Link>
       </li>
       <li>
         <Link href="#portfolio">Portfolio</Link>

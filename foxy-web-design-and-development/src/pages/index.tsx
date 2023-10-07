@@ -1,9 +1,7 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import Nav from "@/components/nav/nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <Nav />;
+  return <h1>placeholder</h1>;
 }
