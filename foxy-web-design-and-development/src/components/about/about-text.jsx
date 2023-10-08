@@ -18,7 +18,7 @@ export default function AboutText() {
       </div>
       <div className=" border-solid border-2 border-extra-light-gray rounded-lg p-8 mb-24">
         <div className="flex flex-col items-center justify-center">
-          <div className="mb-4 pb-16">
+          <div className="mb-4 pb-8">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
               eligendi cum hic laborum id, doloribus non magnam veniam fuga
