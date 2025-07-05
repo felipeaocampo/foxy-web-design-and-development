@@ -24,12 +24,20 @@ export default function Document() {
             })(window,document,'script','dataLayer','GTM-5X25ZN8P');`,
           }}
         ></Script> */}
-        {/* STAPE SGTM CONNECTION SCRIPT */}
-        <Script
+        {/* STAPE SGTM CONNECTION SCRIPT: NO CUSTOM DATALAYER */}
+        {/* <Script
           id="g??gl?-t?g-m?n?g?r"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://stape.grimmy.shop/ayrqiphndm.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','eodqo7qa=aWQ9R1RNLTVYMjVaTjhQ&apiKey=34775901');`,
+          }}
+        ></Script> */}
+        {/* STAPE SGTM CONNECTION SCRIPT: CUSTOM DATALAYER */}
+        <Script
+          id="g??gl?-t?g-m?n?g?r"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://stape.grimmy.shop/ayrqiphndm.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','grimmyDL','eodqo7qa=aWQ9R1RNLTVYMjVaTjhQJmw9Z3JpbW15REw%3D&apiKey=34775901');`,
           }}
         ></Script>
       </Head>
