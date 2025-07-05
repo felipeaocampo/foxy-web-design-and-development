@@ -26,7 +26,7 @@ export default function Document() {
         ></Script> */}
         {/* STAPE SGTM CONNECTION SCRIPT */}
         <Script
-          id="google-tag-manager"
+          id="g??gl?-t?g-m?n?g?r"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://stape.grimmy.shop/ayrqiphndm.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','eodqo7qa=aWQ9R1RNLTVYMjVaTjhQ&apiKey=34775901');`,
